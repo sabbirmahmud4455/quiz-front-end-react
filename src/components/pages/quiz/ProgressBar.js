@@ -1,5 +1,6 @@
 
 import Styles from "../../../assets/styles/ProgressBar.module.css"
+import Button from "../../Button";
 
 export default function ProgressBar(){
 	return(
@@ -14,10 +15,10 @@ export default function ProgressBar(){
             </div>
           </div>
           <a href="result.html">
-            <button className={`${Styles.next} button`} >
+            <Button className={Styles.next}>
               <span>Next Question</span>
               <span className="material-icons-outlined"> arrow_forward </span>
-            </button>
+            </Button>
           </a>
         </div>
 	)
