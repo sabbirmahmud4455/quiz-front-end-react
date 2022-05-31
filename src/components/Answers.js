@@ -1,6 +1,6 @@
 
-import Styles from "../../../assets/styles/Answers.module.css"
-import CheckBox from "../../Checkbox"
+import Styles from "../assets/styles/Answers.module.css"
+import CheckBox from "./Checkbox"
 
 export default function Answers(){
 	return(

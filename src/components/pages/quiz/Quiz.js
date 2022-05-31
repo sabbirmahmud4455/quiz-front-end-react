@@ -1,4 +1,4 @@
-import Answers from "./Answers";
+import Answers from "../../Answers";
 import MiniPlayer from "./MiniPlayer";
 import ProgressBar from "./ProgressBar";
 
